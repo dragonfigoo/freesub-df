@@ -6,9 +6,9 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "57.129.130.10",
-      "server_port": 52014,
-      "uuid": "bca740c6-6704-48ba-99da-7d7a31768d73",
+      "server": "54.178.110.17",
+      "server_port": 4443,
+      "uuid": "d5fbd83b-7346-4ad9-94c0-76293724824d",
       "tls": {
         "enabled": true,
         "server_name": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev",
