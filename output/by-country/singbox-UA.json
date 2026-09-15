@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe",
-      "server": "104.21.8.176",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
+      "server": "104.25.99.169",
       "server_port": 443,
-      "uuid": "7da33b25-cdd6-e481-afcf-c5d532361a70",
+      "uuid": "50414e45-4c5f-5a45-5553-60c86b8747e5",
       "tls": {
         "enabled": true,
-        "server_name": "ez-1bc8ab.sekiro-c18.workers.dev",
+        "server_name": "web-app-aug8yr.app-f1qsy1.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/sync",
+        "path": "/api/ws",
         "headers": {
-          "Host": "ez-1bc8ab.sekiro-c18.workers.dev"
+          "Host": "web-app-aug8yr.app-f1qsy1.workers.dev"
         }
       }
     },
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
