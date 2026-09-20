@@ -5,20 +5,27 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe",
-      "server": "103.251.167.112",
-      "server_port": 8443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "104.21.69.37",
+      "server_port": 443,
+      "uuid": "911b84e1-d046-4fbf-bfc0-c168791115ef",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true
+        "server_name": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/library/lang?ed=2560fp=chrome",
+        "path": "/vl/uWq9DFRgj8BwQiSXmZ46",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "Host": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev"
         }
       }
     },
@@ -27,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
