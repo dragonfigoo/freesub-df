@@ -5,6 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
+  server: 104.21.87.130
+  port: 443
+  udp: true
+  type: trojan
+  password: Telegram_healer_config
+  sni: z6y-daOX0hyhDtdy.r720kPByx2l3i406.wOrKErS.DEv
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tr/UOAg5ubCk87OTaiIAxc0O?ed=2560
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: 153.76.185.186
+  port: 3090
+  udp: true
+  type: vless
+  uuid: 9912a5ca-3ee1-45ac-b182-46fec2610ee0
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
+  server: 153.76.185.188
+  port: 3090
+  udp: true
+  type: vless
+  uuid: 9912a5ca-3ee1-45ac-b182-46fec2610ee0
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 04 - xiaohe
   server: 153.76.185.189
   port: 3090
   udp: true
@@ -13,7 +42,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+- name: 🇨🇿 捷克 (Czech) 05 - xiaohe
   server: 95.85.230.35
   port: 443
   udp: true
@@ -25,6 +54,20 @@ proxies:
     public-key: mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0
   servername: de.oblaco.bet
   client-fingerprint: chrome
+- name: 🇨🇿 捷克 (Czech) 06 - xiaohe
+  server: 95.85.89.70
+  port: 81
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trade?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -32,6 +75,10 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇨🇿 捷克 (Czech) 03 - xiaohe
+  - 🇨🇿 捷克 (Czech) 04 - xiaohe
+  - 🇨🇿 捷克 (Czech) 05 - xiaohe
+  - 🇨🇿 捷克 (Czech) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -39,5 +86,9 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇨🇿 捷克 (Czech) 03 - xiaohe
+  - 🇨🇿 捷克 (Czech) 04 - xiaohe
+  - 🇨🇿 捷克 (Czech) 05 - xiaohe
+  - 🇨🇿 捷克 (Czech) 06 - xiaohe
 rules:
 - MATCH,PROXIES
