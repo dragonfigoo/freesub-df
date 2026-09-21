@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
-  server: 185.125.100.76
-  port: 8443
+  server: 103.31.77.108
+  port: 2053
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -16,7 +16,7 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /trade/game/movies
+    path: /channels/act
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
