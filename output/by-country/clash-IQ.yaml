@@ -5,18 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 138.124.183.18
-  port: 9443
+  server: 172.64.149.54
+  port: 443
   udp: true
   type: vless
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  uuid: fe34b5df-e634-4c83-a057-e53f41ce8e27
   tls: true
-  servername: hub-de-03.hanvpn.cc
+  servername: lATE-LaB-d6A2.CIwodA8715.WoRKerS.DeV
   skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: de03-grpc-8e47a
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiQ3dmV1d4OUFQdSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: late-lab-d6a2.ciwoda8715.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
