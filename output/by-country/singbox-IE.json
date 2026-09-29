@@ -27,16 +27,13 @@
     {
       "type": "vless",
       "tag": "🇮🇪 爱尔兰 (Ireland) 02 - xiaohe",
-      "server": "104.21.31.137",
+      "server": "104.24.30.89",
       "server_port": 443,
-      "uuid": "59c70620-d2f3-4255-9d6f-f4c5103d64ce",
+      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
       "tls": {
         "enabled": true,
-        "server_name": "59fssIBE-SDDrRs3qW83QQZz0H1NT-o.q7qwsxItB6BYi5nMTa4naAlz.woRkErs.deV",
+        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -44,9 +41,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/FpYFoMlg8sRpgV7SSaOaRYa3fagqGu?ed",
+        "path": "/",
         "headers": {
-          "Host": "59fssibe-sddrrs3qw83qqzz0h1nt-o.q7qwsxitb6byi5nmta4naalz.workers.dev"
+          "Host": "rayan-007.nastaran.dpdns.org"
         }
       }
     },

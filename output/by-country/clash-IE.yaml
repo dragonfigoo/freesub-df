@@ -18,20 +18,20 @@ proxies:
   servername: www.tesla.com
   client-fingerprint: chrome
 - name: 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
-  server: 104.21.31.137
+  server: 104.24.30.89
   port: 443
   udp: true
   type: vless
-  uuid: 59c70620-d2f3-4255-9d6f-f4c5103d64ce
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   tls: true
-  servername: 59fssIBE-SDDrRs3qW83QQZz0H1NT-o.q7qwsxItB6BYi5nMTa4naAlz.woRkErs.deV
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vl/FpYFoMlg8sRpgV7SSaOaRYa3fagqGu?ed
+    path: /
     headers:
-      Host: 59fssibe-sddrrs3qw83qqzz0h1nt-o.q7qwsxitb6byi5nmta4naalz.workers.dev
+      Host: rayan-007.nastaran.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
