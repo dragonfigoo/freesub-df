@@ -28,7 +28,7 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
 - name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
-  server: 154.21.203.106
+  server: dghk2610.supertoolify.com
   port: 21033
   udp: true
   type: vless
@@ -39,7 +39,7 @@ proxies:
     public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
     short-id: cbd39bea0805e2
   servername: www.kaidee.com
-  client-fingerprint: firefox
+  client-fingerprint: ios
 proxy-groups:
 - name: PROXIES
   type: select
