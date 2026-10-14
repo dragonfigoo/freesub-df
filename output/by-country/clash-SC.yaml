@@ -9,7 +9,7 @@ proxies:
   port: 10443
   udp: true
   type: trojan
-  password: 7863e025-79e2-4c84-9402-688e1a1a97e5
+  password: 1f02add4-bdc6-4ee2-af47-33c4503efdcf
   sni: 45.205.27.78
   skip-cert-verify: true
 - name: 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
