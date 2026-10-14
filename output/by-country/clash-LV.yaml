@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇴 罗马尼亚 (Romania) 01 - xiaohe
-  server: 146.70.124.85
+- name: 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
+  server: 216.173.71.43
   port: 443
   udp: true
   type: vless
-  uuid: 40abbe13-f02e-4da2-9b19-966c2c3eb4ee
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE
-    short-id: fe24f8a0a560056e
-  servername: www.datadoghq.com
+    public-key: miDhSALrcCvSfc38VjCDYlzNh5M61NMR5IkUli7IN08
+    short-id: 0da7e14db353e7d0
+  servername: lv.nztvpn.com
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇷🇴 罗马尼亚 (Romania) 01 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇴 罗马尼亚 (Romania) 01 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
 rules:
 - MATCH,PROXIES
