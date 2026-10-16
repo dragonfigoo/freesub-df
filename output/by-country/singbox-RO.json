@@ -52,7 +52,7 @@
         "server_name": "www.datadoghq.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -95,22 +95,6 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - xiaohe",
-      "server": "bogging-eyeteeth-fly.freesocks.work",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 07 - xiaohe",
-      "server": "154.46.31.106",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -119,9 +103,7 @@
         "🇷🇴 罗马尼亚 (Romania) 02 - xiaohe",
         "🇷🇴 罗马尼亚 (Romania) 03 - xiaohe",
         "🇷🇴 罗马尼亚 (Romania) 04 - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 05 - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 06 - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 07 - xiaohe"
+        "🇷🇴 罗马尼亚 (Romania) 05 - xiaohe"
       ]
     },
     {
@@ -132,9 +114,7 @@
         "🇷🇴 罗马尼亚 (Romania) 02 - xiaohe",
         "🇷🇴 罗马尼亚 (Romania) 03 - xiaohe",
         "🇷🇴 罗马尼亚 (Romania) 04 - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 05 - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 06 - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 07 - xiaohe"
+        "🇷🇴 罗马尼亚 (Romania) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
