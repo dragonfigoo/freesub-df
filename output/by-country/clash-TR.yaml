@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: location8.cpanel-host10.ir
+  server: 87.236.166.134
   port: 56134
   udp: true
   type: ss

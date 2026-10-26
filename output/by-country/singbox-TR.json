@@ -6,7 +6,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "location8.cpanel-host10.ir",
+      "server": "87.236.166.134",
       "server_port": 56134,
       "method": "chacha20-ietf-poly1305",
       "password": "uvKNudV-N8AUCrykPiyznA"
