@@ -5,20 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
-      "server": "216.24.57.225",
-      "server_port": 2083,
-      "uuid": "3bcbd7ef-e05b-4745-a1de-5ecf98dd2fb6",
+      "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe",
+      "server": "104.24.30.89",
+      "server_port": 443,
+      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
       "tls": {
         "enabled": true,
-        "server_name": "pol.netvia.ir",
-        "insecure": false
+        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/wss",
+        "path": "/",
         "headers": {
-          "Host": "pol.netvia.ir"
+          "Host": "rayan-007.nastaran.dpdns.org"
         }
       }
     },
@@ -27,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
