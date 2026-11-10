@@ -4,24 +4,41 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
-  server: 49.254.204.133
-  port: 1774
+- name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  server: 199.181.197.99
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 1234!@#$
+  type: vless
+  uuid: 70756c73-0000-4000-8000-650000000000
+  tls: true
+  servername: parsa-panel-u48we.wotic15356.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /pulsefp=chrome
+    headers:
+      Host: parsa-panel-u48we.wotic15356.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 02 (家宽) - xiaohe
+  server: 116.88.224.217
+  port: 8080
+  udp: true
+  type: vmess
+  uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 02 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 02 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
