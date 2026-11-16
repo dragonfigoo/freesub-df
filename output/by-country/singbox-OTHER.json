@@ -4,15 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
-      "server": "hy2-eee-1.aloranode.top",
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.16.111.195",
       "server_port": 443,
-      "password": "b36a14f8-fc3f-4142-968f-48031cf5f330",
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
         "enabled": true,
-        "server_name": "hy2-eee-1.aloranode.top",
+        "server_name": "jp3.yohototo.top",
         "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
       }
     },
     {
@@ -20,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
